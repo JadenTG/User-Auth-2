@@ -31,7 +31,7 @@ const Login = () => {
         e.preventDefault();
         try {
             const { data } = await axios.post(
-                "http://localhost:3000/login",
+                "https://user-auth-backend-9h3i.onrender.com/login",
                 {
                     ...inputValue,
                 },

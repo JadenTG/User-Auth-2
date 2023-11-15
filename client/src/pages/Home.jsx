@@ -14,7 +14,7 @@ const Home = () => {
                 navigate("/login");
             }
             const { data } = await axios.post(
-                "http://localhost:3000",
+                "https://user-auth-backend-9h3i.onrender.com",
                 {},
                 { withCredentials: true }
             );
